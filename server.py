@@ -4,8 +4,8 @@
 import sys
 from flask import Flask, send_file, jsonify
 
-sys.path.append("./allude_screenshot")
-from allude_screenshot.blueprint import screenshot_blueprint
+# sys.path.append("./allude_screenshot")
+# from allude_screenshot.blueprint import screenshot_blueprint
 
 sys.path.append("./allude_subtitles")
 from allude_subtitles.blueprint import subtitle_blueprint
@@ -25,7 +25,7 @@ app = Flask(__name__)
 
 ### Blueprints
 app.register_blueprint(subtitle_blueprint, url_prefix="/subtitles")
-app.register_blueprint(screenshot_blueprint, url_prefix="/screenshot")
+# app.register_blueprint(screenshot_blueprint, url_prefix="/screenshot")
 app.register_blueprint(reddit_blueprint, url_prefix="/reddit")
 
 ### Other Routes
