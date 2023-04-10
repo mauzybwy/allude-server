@@ -1,0 +1,9 @@
+[submodule "allude_reddit"]
+	path = allude_reddit
+	url = git@github.com:mauzybwy/allude-reddit.git
+[submodule "allude_subtitles"]
+	path = allude_subtitles
+	url = git@github.com:mauzybwy/allude-subtitles.git
+[submodule "allude_screenshot"]
+	path = allude_screenshot
+	url = git@github.com:mauzybwy/allude-screenshot.git
